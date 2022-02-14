@@ -1,0 +1,31 @@
+public class Variables{
+
+     public static void main(String []args){
+        
+        // boolean is either true or false
+        boolean hasDog = true;
+        boolean isDog = false;
+        
+        // int is an integer
+        int quizGrade = 95;
+        int age = 17;
+                                     
+        // double can have a decimal
+        double temp = 64.2;    
+        double length = 3.6;
+                                     
+        // String is a word, phrase, sentence, etc. (Can be a number too)
+        String word = "Coffee";
+        String sentence = "Coffee is my favorite beverage! I love it!";
+        
+        // char is a single character, use apostrophes! ( '#' )
+        char letter = 'A';
+        char number = '6';
+        
+        // print some stuff
+        System.out.println(sentence);
+        System.out.println(letter);
+        System.out.println(hasDog);
+        System.out.println(temp);
+      }
+}
